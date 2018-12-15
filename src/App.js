@@ -53,7 +53,6 @@ class App extends Component {
 
     this.setState({
       todos: todos.filter((item, i) => {
-        console.log(item);
         return i !== index;
       })
     });
